@@ -265,12 +265,12 @@ In your local.py:
     
 In your nginx config:
 
-    location /static {
+    location /static/ {
         autoindex off;
         alias /path/to/umap/var/static/;   
     }
 
-    location /uploads {
+    location /uploads/ {
         autoindex off;
         alias /path/to/umap/var/data/;    
     }
